@@ -38,6 +38,16 @@ programa {
 
     total_pagar = total_parafusos + total_porcas + total_arruelas
 
-    limpra()
+    limpa()
+
+    escreva("Cliente: ", nome, "\n")
+    escreva("==============================\n")
+    escreva("Parafusos:" , quantidade_parafusos, "\n")
+    escreva("Arruelas:", quantidade_arruelas, "\n")
+    escreva("Porcas:", quantidade_porcas, "\n")
+    escreva("==============================\n")
+    escreva("Total a pagar: r$ ", total_pagar, "\n")
+
+    
   }
 }
